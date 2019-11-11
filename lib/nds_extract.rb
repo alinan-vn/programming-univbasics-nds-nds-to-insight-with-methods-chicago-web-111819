@@ -29,7 +29,7 @@ end
 # using director_data as input
 def gross_for_director(director_data)
   array = directors_totals(director_data)
-  return array[0]
+  return array
 end
 
 pp directors_totals(directors_database)
